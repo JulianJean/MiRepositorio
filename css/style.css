@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.conten{
+    background-image: url(../images/fondopage.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.conten::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 7, 12, 0.65);
+    position: absolute;
+    z-index: -1;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul li a{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+.logopag{
+    width: 250px;
+    height: 150px;
+}
+.tit-index{
+    font-family: 'PT serif', serif;
+    color:aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+.atrac{
+    font-family: 'Gupter', serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+.ilust{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.ilust img{
+    border: solid black 1px;
+}
+main h2{
+    text-align: center;
+    font-family: 'PT serif', serif;
+    font-size: 45px;
+    color: aliceblue;
+}
+main p{
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+.presu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.presu div{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.presu img{
+    border: solid black 1px;
+}
+.presu a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 8px 8px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'gupter', serif;
+    border: solid black 2px;
+    color: #000000;
+    background-color: rgb(243, 181, 128);
+}
+.cont-pag{
+    font-family: 'PT serif', serif;
+    font-size: 40px;
+    text-align: center;
+    color:aliceblue;
+}
+.cont-redes{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.redes{
+    font-family: 'nunito', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.redes li{
+    padding: 10px;
+}
+.redes li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+}
+.redes li img{
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+footer iframe{
+    width: 30%;
+    height: 300px;
+}
+.tit-contacto{
+    font-size: 70px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'PT serif', serif;
+}
+.cuestionario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuestionario form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuestionario form input{
+    color: #000000;
+    border-color: coral;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.mensaje-cliente{
+    color: #000000;
+    border-color: coral;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.cuestionario button{
+    color: #000000;
+    font-family: 'nunito', sans-serif;
+    font-size: 15px;
+    background-color: tomato;
+    border-color: coral;
+}
+.empresa h2{
+    font-size: 70px;
+    font-family: 'PT serif', serif;
+    color: aliceblue;
+    text-align: center;
+}
+.empresa p{
+    font-size: 20px;
+    font-family: 'gupter', serif;
+    color: aliceblue;
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nosotros img{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: solid black;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro div ul li img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.proye h2{
+    font-family: 'PT serif', serif;
+    color:aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+.proye p{
+    font-family: 'Gupter', serif;
+    font-size: 25px;
+    color: aliceblue;
+}
+.pro h3{
+    font-family: 'PT serif', serif;
+    color:aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+.steel-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.steel-img img{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.trad-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trad-img img{
+    padding: 10px;
+    width: 500px;
+    height: 300px;
+}
+.serv h1{
+    font-family: 'PT serif', serif;
+    color:aliceblue;
+    text-align: center;
+    font-size: 70px;
+}
+.serv h2{
+    font-family: 'PT serif', serif;
+    color:rgb(2, 2, 2);
+    text-align: center;
+    font-size: 45px;
+}
